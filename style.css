@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body,html{
+    display: grid;
+    min-height: 100%;
+    place-items: center;
+}
+
+.container{
+    width: 600px;
+    height: 300px;
+    /* border: 2px solid red; */
+    box-shadow: 2px 3px 5px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+#counter{
+    font-size: 3rem;
+    /* margin-bottom: rem; */
+}
+
+.lowerBtn, .addBtn{
+    font-size: 1rem;
+    outline: none;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    margin: 2rem;
+
+}
